@@ -1,5 +1,3 @@
-remove package-lock.json
-ls -d * | xargs -I {} -exec rm -f {}/package-lock.json
 # Changelog
 
 All notable changes to this project will be documented in this file.
