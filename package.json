@@ -1,0 +1,18 @@
+{
+  "repository": "git@github.com:eggheadio-projects/vr-applications-using-react-360.git",
+  "workspaces": [
+    "lessons/*"
+  ],
+  "scripts": {
+    "start": "aux() { yarn workspace:log \"$(cd lessons && ls -d *\"$1\"* | head -1)\" start; }; aux",
+    "workspace:log": "aux() { echo \"Running $2 in $1.\" && yarn workspace \"$@\"; }; aux",
+    "clean": "rm -rf lessons/*/{dist,.cache}",
+    "clean:node_modules": "find . -name node_modules | xargs rm -rf",
+    "format": "prettier **/*.{js,json} -l --write --ignore-path .gitignore || :",
+    "latest": "yarn upgrade-interactive --latest && yarn upgrade -L"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "private": true
+}
