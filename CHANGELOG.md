@@ -1,6 +1,3 @@
-rename name to folder name
-ls -d * | xargs -I {} sed -i '' 's/"name": ".*"/"name": "{}"/' {}/package.json
-
 remove package-lock.json
 ls -d * | xargs -I {} -exec rm -f {}/package-lock.json
 # Changelog
