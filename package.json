@@ -1,8 +1,20 @@
 {
   "repository": "git@github.com:eggheadio-projects/vr-applications-using-react-360.git",
-  "workspaces": [
-    "lessons/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "lessons/*"
+    ],
+    "nohoist": [
+      "**/react-360",
+      "**/react-360/**",
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-360-web",
+      "**/react-360-web/**",
+      "**/three",
+      "**/three/**"
+    ]
+  },
   "scripts": {
     "start": "aux() { yarn workspace:log \"$(cd lessons && ls -d *\"$1\"* | head -1)\" start; }; aux",
     "workspace:log": "aux() { echo \"Running $2 in $1.\" && yarn workspace \"$@\"; }; aux",
