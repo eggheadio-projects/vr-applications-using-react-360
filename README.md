@@ -12,7 +12,7 @@ Each folder contains the code for a single lesson within the course, from starti
 
 ## Test your knowledge
 
-[Test your knowledge with tinycard flashcards](https://3.basecamp.com/4358333/buckets/14677267/chats/2234463011).
+[Test your knowledge with tinycard flashcards](https://tinycards.duolingo.com/decks/P2bLtJMF/vr-applications-using-react-360).
 
 ## Contents
 
