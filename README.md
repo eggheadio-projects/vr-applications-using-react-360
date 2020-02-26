@@ -10,6 +10,10 @@ This repository contains the code for all lessons accompanying the [React 360 Co
 
 Each folder contains the code for a single lesson within the course, from starting a brand new project all the way to building a completed app for production environment.
 
+## Test your knowledge
+
+[Test your knowledge with tinycard flashcards](https://3.basecamp.com/4358333/buckets/14677267/chats/2234463011).
+
 ## Contents
 
 1. **Start a Virtual Reality project with React 360** [code](https://github.com/eggheadio-projects/vr-applications-using-react-360/tree/master/00-start-a-virtual-reality-project-with-react-360) [video](https://egghead.io/lessons/react-start-a-virtual-reality-project-with-react-360)
